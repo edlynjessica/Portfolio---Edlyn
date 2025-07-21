@@ -157,7 +157,7 @@ body.dark {
   --bg: #1e1e2f;
   --text: #f1f1f1;
   --card-bg: #2c2c3e;
-  --accent: #00bcd4;
+  --accent: #03a7ff;
 }
 
 /* 🌐 Navbar Styling */
@@ -252,4 +252,18 @@ body.dark .nav-links a:hover {
 html {
   scroll-padding-top: 100px; /* Adjust depending on your navbar height */
   scroll-behavior: smooth;   /* Adds smooth scrolling */
+}
+
+#contact{
+  background-color: white;
+  border-radius: 10%;
+  box-shadow: 15px 15px darkblue;
+  height: 200px;
+  width: 350px;
+  padding: 20px;
+}
+body.dark #contact {
+  background-color: #1e1e1e; /* Optional: match dark theme */
+  color: white;
+  box-shadow: 15px 15px mediumblue;
 }
